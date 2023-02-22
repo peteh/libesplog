@@ -1,0 +1,28 @@
+{
+  "name": "libesplog",
+  "version": "0.0.1",
+  "description": "A library that allows formatted log messages with simple macros",
+  "keywords": "log, logging",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/peteh/libesplog.git"
+  },
+  "authors":
+  [
+    {
+      "name": "Pete",
+      "email": "",
+      "url": "https://www.peterhofmann.me",
+      "maintainer": true
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/peteh/libesplog",
+  "dependencies": {},
+  "frameworks": "Arduino",
+  "platforms": [
+    "espressif32", 
+    "espressif8266"
+  ]
+}
