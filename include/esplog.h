@@ -9,7 +9,7 @@ enum LOG_LEVEL
     LOG_LEVEL_ERROR,
 };
 
-const char* loglevel_to_string[];
+const char* loglevel_to_string[4];
 
 class Logger
 {
