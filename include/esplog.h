@@ -9,12 +9,7 @@ enum LOG_LEVEL
     LOG_LEVEL_ERROR,
 };
 
-const char* loglevel_to_string[] = {
-    "DEBUG", 
-    "INFO",
-    "WARN",
-    "ERROR"
-};
+const char* loglevel_to_string[];
 
 class Logger
 {
