@@ -26,7 +26,7 @@ public:
         vsnprintf(bufferMessage, sizeof(bufferMessage), message, args);
         va_end(args);
         //
-        snprintf(bufferInfo, sizeof(bufferInfo), "[%s][%s %s():%d] %s\n", loglevel_to_string[logLevel], file, func, line, bufferMessage);
+        snprintf(bufferInfo, sizeof(bufferInfo), "[%s][%s %s():%u] %s\n", loglevel_to_string[logLevel], file, func, line, bufferMessage);
         Serial.print(bufferInfo);
     }
 };
